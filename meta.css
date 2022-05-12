@@ -425,8 +425,8 @@ body {
 }
 
 .sale_info {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("https://uploads-ssl.webflow.com/61d7fa117a0c437fe4d86908/61e597e7798c226bccedb81f_Metascapes-4.jpg");
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://uploads-ssl.webflow.com/61d7fa117a0c437fe4d86908/61e597e7798c226bccedb81f_Metascapes-4.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.479)), to(rgba(0, 0, 0, 0.7))), url("https://uploads-ssl.webflow.com/61d7fa117a0c437fe4d86908/61e597e7798c226bccedb81f_Metascapes-4.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.7)), url("https://uploads-ssl.webflow.com/61d7fa117a0c437fe4d86908/61e597e7798c226bccedb81f_Metascapes-4.jpg");
   background-position: 0px 0px, 45% 15%;
   background-size: auto, auto;
   background-attachment: scroll, scroll;
