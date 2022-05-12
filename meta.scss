@@ -86,6 +86,18 @@ body {
         .opensea_btn:hover {
           background-color: #bebebe;
         }
+        .creator{
+          display: none;
+          font-size: 0.7rem;
+          color: #ffffff;
+          a{
+            text-decoration: none;
+            color: aqua;
+            font-size: 1rem;
+            font-weight: 600;
+            margin-left: 0.6rem;
+          }
+        }
       }
     }
     .wrapperMenu {
@@ -171,12 +183,23 @@ body {
 .info{
   margin-top: 2rem;
   padding: 2% 5.8%;
+  transition: all 3s;
+
   .box{
     color: #ffffff;
     background-color: #000000bb;
     padding: 0.5rem 3rem 1.5rem 3rem; 
     box-sizing: border-box;
     width: 60%;
+    transition: all 3s ease-in-out;
+    animation-name: move;
+    animation-duration: 4.5s;
+    position: relative;
+
+    @keyframes move{
+      0%   {background-color:#001d3075; top:200px; }
+      25%  {background-color: #0d963d73; top:0px;}
+    }
     
     h1{
       font-size: 3rem;
@@ -207,6 +230,17 @@ body {
     .item {
       padding: 0 !important;
     }
+    .creator{
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  .logo{
+    position: fixed;
   }
 
   .menu_items.active {
@@ -221,6 +255,8 @@ body {
   }
 
   .wrapperMenu {
+    position: fixed;
+    right: 5.8%;
     width: 2rem;
     height: 2rem;
     display: flex !important;
@@ -228,6 +264,7 @@ body {
     justify-content: space-between;
     cursor: pointer;
     transition: transform 330ms ease-in-out;
+    
   }
 
   .info{
